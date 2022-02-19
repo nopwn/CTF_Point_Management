@@ -7,7 +7,7 @@ $servername='';
 $mysqli = new mysqli($servername, $user, 
                 $password, $database);
   
-// Checking for connections
+// Checking for connections pccsu{thanks_for_checking_the_github}
 if ($mysqli->connect_error) {
     die('Connect Error (' . 
     $mysqli->connect_errno . ') '. 
